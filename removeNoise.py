@@ -20,7 +20,6 @@ class RemoveNoise:
         out = img * mask
         img_bw_inverted = 255 - img_bw
         contours, _ = cv2.findContours(img_bw_inverted, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        cv2.imshow( 'image', out)
         return out, contours
 
     def get_undesired_objects(self, contours):

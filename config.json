@@ -1,0 +1,10 @@
+{
+  "image_paths": {
+    "image_path_1": "D:\\AI_ML_Projects\\ArchitectSDXL\\Images\\test1.png",
+    "image_path_2": "D:\\AI_ML_Projects\\ArchitectSDXL\\Images\\test2.png"
+  },
+  "thresholds": {
+    "image_path_1": 50,
+    "image_path_2": 82
+  }
+}

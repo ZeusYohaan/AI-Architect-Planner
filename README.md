@@ -1,2 +1,6 @@
-# Architect-Planner
-This is an AI model using SAM and Grounding DINO to segment objects in a floor plan and effectively remove them in order to get a clean and clear floor plan which can later be used in a blender to convert it into 3D model.
+# bp_fpa
+## Builderplus Floor plan analysis
+
+### Instructions
+1. Change file paths in config.json
+2. Run the following command => python removeNoise.py
